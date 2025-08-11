@@ -31,7 +31,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/order" className="link">
+            <a href="/orders" className="link">
               Order Online
             </a>
           </li>
