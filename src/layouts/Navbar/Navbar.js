@@ -1,14 +1,20 @@
 import React from "react";
 import "./Navbar.css";
 import Logo from "../../assets/Logo.svg";
-
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const onClickImage = () => {
+    navigate("/");
+  };
+
   return (
     <header className="navbar">
       <div className="logo">
-        <img src={Logo} alt="logo" />
+        <img src={Logo} alt="logo" height={50} onClick={onClickImage} />
       </div>
-      <nav>
+      <nav className="nav">
         <ul>
           <li>
             <a href="/" className="link">
