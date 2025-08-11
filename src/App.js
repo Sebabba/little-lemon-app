@@ -1,19 +1,16 @@
-import './App.css';
-import Navbar from './layout/Navbar/Navbar';
-import Hero from './components/Sections/Hero/Hero';
+import "./App.css";
+import Topbar from './layouts/Navbar/Navbar';
+import Hero from './pages/Sections/Hero/Hero';
+import Specials from "./pages/Sections/Specials/Specials";
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <div>
+      <Topbar />
       <Hero />
-      <main>
-
-      </main>
-      <footer>
-        
-      </footer>
-    </>
+      <Specials />
+      <div className="App"></div>;
+    </div>
   );
 }
 
