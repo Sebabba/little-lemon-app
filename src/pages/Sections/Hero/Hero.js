@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Button from "../../../components/Button/Button";
-import Image from "../../../assets/restaurantchef.jpg";
+import Image from "../../../assets/restaurantfood.jpg";
 import { useNavigate } from "react-router-dom";
 import pages from "../../../utils/pages";
 
