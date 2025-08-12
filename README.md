@@ -1,4 +1,4 @@
-# Little Lemon :lemon:
+# Little Lemon Restaurant :lemon:
 
 This is a React project created for the Meta Front-End Developer course. It is a webpage for the Little Lemon Restaurant with a online table reservation feature.
 
