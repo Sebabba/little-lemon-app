@@ -10,15 +10,14 @@ const About = () => {
         <h1 className="about-title">Little Lemon</h1>
         <h2 className="about-subtitle">Chicago</h2>
         <p className="about-description">
-          Nestled in the heart of bustling Chicago, Little Lemon is where modern
-          flair meets cozy nostalgia. Our diverse, artisanal menu, featuring
-          delectable bruschettas, succulent burgers, and refreshing Greek
-          salads, is a testament to our belief that food is an art. Crafted by
-          expert chefs with locally-sourced ingredients, our dishes not only
-          delight the palate but nourish the soul. Whether you're seeking a
-          romantic dinner, a family meal, or a relaxed atmosphere with friends,
-          Little Lemon is your ideal culinary destination. Find us in the heart
-          of Chicago for an unforgettable experience.
+          We are a family owned Mediterranean restaurant, focused on traditional
+          recipes served with a modern twist. Located in the heart of Chicago,
+          we bring together the rich flavors and timeless techniques of the
+          Mediterranean with contemporary culinary creativity. Our menu features a
+          variety of carefully crafted dishes — from tender lamb and fresh seafood
+          to vibrant mezze and house-made breads — all prepared using the finest
+          locally sourced ingredients. Each plate reflects our commitment to quality
+          and authenticity, while embracing innovation that excites the palate.
         </p>
       </div>
 

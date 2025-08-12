@@ -7,7 +7,7 @@ You can see a preview of the website here:
 
 ## Live Preview
 
-It is possible to test the live versione of the version via this link: [View Live Demo] (to be added)
+It is possible to test the live versione of the version via this link: [View Live Demo](https://little-lemon-app-ten.vercel.app)
 
 ## Available Scripts
 
