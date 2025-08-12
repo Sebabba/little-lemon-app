@@ -6,7 +6,7 @@ import Hero from "./Hero";
 
 test("renders Hero component without errors", () => {
   render(
-    <BrowserRouter>
+    <BrowserRouter future={{v7_startTransition: true}}>
       <Hero />
     </BrowserRouter>
   );

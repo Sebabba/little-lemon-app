@@ -1,5 +1,4 @@
 .reservation {
-  height: calc(100vh - 96px - 266px);
   width: 100vw;
   max-width: 65rem;
   margin: 0 auto;
@@ -13,6 +12,7 @@
   border-radius: 16px;
   padding: 2rem;
   width: 50%;
+  margin: 2rem;
 }
 
 .reservation-title {
@@ -27,7 +27,6 @@
 }
 @media screen and (max-width: 767px) {
   .reservation {
-    height: calc(100vh - 96px);
     width: 100vw;
     max-width: 65rem;
     margin: 0 auto;

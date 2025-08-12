@@ -6,7 +6,7 @@ import '@testing-library/jest-dom/extend-expect';
 
 test('it renders the Navbar component correctly', () => {
   render(
-    <BrowserRouter>
+    <BrowserRouter future={{v7_startTransition: true}}>
       <Navbar />
     </BrowserRouter>
   );

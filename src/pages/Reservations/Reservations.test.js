@@ -5,7 +5,7 @@ import Reservations from "./Reservations";
 
 test("renders the reservations component", () => {
   render(
-    <Router>
+    <Router future={{v7_startTransition: true}}>
       <Reservations />
     </Router>
   );

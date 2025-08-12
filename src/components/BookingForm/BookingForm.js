@@ -14,7 +14,7 @@ const BookingForm = ({
     date: "",
     time: defaultTime,
     people: "",
-    occasion: "",
+    occasion: "no-occasion",
   });
 
   const handleInputChange = (e) => {
@@ -86,6 +86,7 @@ const BookingForm = ({
           onChange={handleInputChange}
           className={isFormSubmitted && !formValues.occasion ? "error" : ""}
         >
+          <option value="no-occasion">No Occasion</option>
           <option value="birthday">Birthday</option>
           <option value="anniversary">Anniversary</option>
           <option value="business">Business</option>

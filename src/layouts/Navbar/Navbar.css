@@ -51,8 +51,7 @@ ul li a {
     height: 4rem;
     width: -webkit-fill-available;
     margin: 0 auto;
-    position: fixed;
-    margin-bottom:96px;
+    position: relative;
   }
   .menu-toggle {
     display: block;
