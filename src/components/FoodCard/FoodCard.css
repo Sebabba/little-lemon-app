@@ -3,7 +3,7 @@
   border-radius: 16px;
   height: 100%;
   min-height: 27rem;
-  width: 18rem;
+  width: 20rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -11,6 +11,11 @@
 
 .food-card-image {
   width: 100%;
+}
+
+.food-card-image img{
+  width: 100%;
+  object-fit: cover;
 }
 
 .food-card-title {
@@ -65,7 +70,21 @@
   margin: 0 0.5rem 0 0 ;
   color: black;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 992px) {
+  .food-card {
+  background: #edefee;
+  border-radius: 16px;
+  height: 100%;
+  min-height: 27rem;
+  width: 16rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+}
+
+@media screen and (max-width: 768px) {
   .food-card {
     background: #edefee;
     border-radius: 16px;
